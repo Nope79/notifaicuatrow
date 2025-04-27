@@ -50,14 +50,11 @@ C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.csproj.Asse
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.Properties.Resources.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.csproj.GenerateResource.cache
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.csproj.CoreCompileInputs.cache
-C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.GRUPOS.grupos_mod.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.GRUPOS.grupos_view.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.MainMenu.Menu_Admin.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.MENU_USUARIO.MENU_USER.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User.UserNot.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User.SecNot.resources
-C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.NOTIFICACIONES.Form1.resources
-C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.NOTIFICACIONES.notificaciones_mod.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.NOTIFICACIONES.notificaciones_view.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.USUARIOS.usuarios_view.resources
 C:\Users\nopes\Downloads\Notify\main\Proyecto 1\bin\Debug\Proyecto 1.exe.config
