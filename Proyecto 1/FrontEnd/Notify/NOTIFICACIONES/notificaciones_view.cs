@@ -4,6 +4,7 @@ using Not.Backend;
 using Org.BouncyCastle.Asn1.X500;
 using Org.BouncyCastle.Crypto;
 using Proyecto_1.BackEnd;
+using Proyecto_1.FrontEnd.Area;
 using Proyecto_1.FrontEnd.Notify.MainMenu;
 using System;
 using System.Numerics;
