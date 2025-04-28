@@ -18,8 +18,8 @@ namespace Proyecto_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MENU_USER(new Usuario(1, "Juan"))); 
-            Application.Run(new Menu_Admin(1));
+            Application.Run(new MENU_USER(new Usuario(1, "Juan"))); 
+            //Application.Run(new Menu_Admin(1));
         }
     }
 }

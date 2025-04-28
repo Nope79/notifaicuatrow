@@ -1,4 +1,6 @@
-﻿namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
+﻿using System.Windows.Forms;
+
+namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
 {
     partial class SecNot
     {
@@ -39,6 +41,7 @@
             this.dgv_sec = new System.Windows.Forms.DataGridView();
             this.menu_panel = new System.Windows.Forms.Panel();
             this.btn_back = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btn_entrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.main_panel.SuspendLayout();
             this.btn_panel.SuspendLayout();
             this.grid_panel.SuspendLayout();
@@ -76,6 +79,7 @@
             // 
             this.btn_panel.BackColor = System.Drawing.Color.LightSlateGray;
             this.btn_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_panel.Controls.Add(this.btn_entrar);
             this.btn_panel.Controls.Add(this.btn_delete);
             this.btn_panel.Controls.Add(this.btn_update);
             this.btn_panel.Controls.Add(this.btn_add);
@@ -89,9 +93,10 @@
             this.btn_delete.AutoSize = true;
             this.btn_delete.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_delete.Depth = 0;
+            this.btn_delete.Enabled = false;
             this.btn_delete.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_delete.Icon = null;
-            this.btn_delete.Location = new System.Drawing.Point(590, 27);
+            this.btn_delete.Location = new System.Drawing.Point(344, 26);
             this.btn_delete.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Primary = true;
@@ -99,14 +104,16 @@
             this.btn_delete.TabIndex = 2;
             this.btn_delete.Text = "Eliminar";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_update
             // 
             this.btn_update.AutoSize = true;
             this.btn_update.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_update.Depth = 0;
+            this.btn_update.Enabled = false;
             this.btn_update.Icon = null;
-            this.btn_update.Location = new System.Drawing.Point(345, 26);
+            this.btn_update.Location = new System.Drawing.Point(179, 27);
             this.btn_update.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_update.Name = "btn_update";
             this.btn_update.Primary = true;
@@ -114,6 +121,7 @@
             this.btn_update.TabIndex = 1;
             this.btn_update.Text = "Actualizar";
             this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // btn_add
             // 
@@ -129,6 +137,7 @@
             this.btn_add.TabIndex = 0;
             this.btn_add.Text = "Añadir";
             this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // grid_panel
             // 
@@ -167,6 +176,7 @@
             this.dgv_sec.RowTemplate.Height = 24;
             this.dgv_sec.Size = new System.Drawing.Size(614, 142);
             this.dgv_sec.TabIndex = 6;
+            this.dgv_sec.CellClick += this.dgv_sec_CellClick;
             // 
             // menu_panel
             // 
@@ -194,6 +204,24 @@
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
+            // btn_entrar
+            // 
+            this.btn_entrar.AutoSize = true;
+            this.btn_entrar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_entrar.Depth = 0;
+            this.btn_entrar.Enabled = false;
+            this.btn_entrar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_entrar.Icon = null;
+            this.btn_entrar.Location = new System.Drawing.Point(593, 27);
+            this.btn_entrar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_entrar.Name = "btn_entrar";
+            this.btn_entrar.Primary = true;
+            this.btn_entrar.Size = new System.Drawing.Size(87, 36);
+            this.btn_entrar.TabIndex = 3;
+            this.btn_entrar.Text = "Entrar";
+            this.btn_entrar.UseVisualStyleBackColor = true;
+            this.btn_entrar.Click += new System.EventHandler(this.btn_entrar_Click);
+            // 
             // SecNot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -201,6 +229,7 @@
             this.ClientSize = new System.Drawing.Size(971, 479);
             this.Controls.Add(this.main_panel);
             this.Name = "SecNot";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sección";
             this.Load += new System.EventHandler(this.SecNot_Load);
             this.main_panel.ResumeLayout(false);
@@ -227,5 +256,6 @@
         private System.Windows.Forms.DataGridView dgv_sec;
         private System.Windows.Forms.Panel menu_panel;
         private MaterialSkin.Controls.MaterialRaisedButton btn_back;
+        private MaterialSkin.Controls.MaterialRaisedButton btn_entrar;
     }
 }

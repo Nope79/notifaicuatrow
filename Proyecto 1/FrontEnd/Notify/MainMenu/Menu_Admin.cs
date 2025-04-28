@@ -47,7 +47,6 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             {
                 MessageBox.Show("No se pudo cargar pleb");
             }
-            
         }
 
         private void dgv_main_CellClick(object sender, DataGridViewCellEventArgs e)

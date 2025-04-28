@@ -110,15 +110,8 @@
     <Compile Include="BackEnd\Notify\Administrador.cs" />
     <Compile Include="BackEnd\Notify\Grupo.cs" />
     <Compile Include="BackEnd\Notify\Notificacion.cs" />
-    <Compile Include="BackEnd\Notify\Seccion.cs" />
     <Compile Include="BackEnd\Notify\Usuarios.cs" />
     <Compile Include="CustomUI.cs" />
-    <Compile Include="FrontEnd\Notify\CRUD_USUARIOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrontEnd\Notify\CRUD_USUARIOS.Designer.cs">
-      <DependentUpon>CRUD_USUARIOS.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrontEnd\Notify\Admin_\GRUPOS\grupos_view.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,22 +124,34 @@
     <Compile Include="FrontEnd\Notify\MainMenu\Menu_Admin.Designer.cs">
       <DependentUpon>Menu_Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrontEnd\Notify\MENU_USUARIO\MENU_USER.cs">
+    <Compile Include="FrontEnd\Notify\MainMenu\MENU_USER.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrontEnd\Notify\MENU_USUARIO\MENU_USER.Designer.cs">
+    <Compile Include="FrontEnd\Notify\MainMenu\MENU_USER.Designer.cs">
       <DependentUpon>MENU_USER.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrontEnd\Notify\MENU_USUARIO\Notificacion_User\UserNot.cs">
+    <Compile Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrontEnd\Notify\MENU_USUARIO\Notificacion_User\UserNot.Designer.cs">
+    <Compile Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.Designer.cs">
       <DependentUpon>UserNot.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrontEnd\Notify\MENU_USUARIO\Seccion_User\SecNot.cs">
+    <Compile Include="FrontEnd\Notify\Usuario_\Seccion_User\seccion_mod.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrontEnd\Notify\MENU_USUARIO\Seccion_User\SecNot.Designer.cs">
+    <Compile Include="FrontEnd\Notify\Usuario_\Seccion_User\seccion_mod.Designer.cs">
+      <DependentUpon>seccion_mod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Seccion_User\seccion_notificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Seccion_User\seccion_notificacion.Designer.cs">
+      <DependentUpon>seccion_notificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Seccion_User\SecNot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Seccion_User\SecNot.Designer.cs">
       <DependentUpon>SecNot.cs</DependentUpon>
     </Compile>
     <Compile Include="FrontEnd\Notify\Admin_\NOTIFICACIONES\notificaciones_view.cs">
@@ -163,6 +168,7 @@
     </Compile>
     <Compile Include="JSON_\JsonHelper.cs" />
     <Compile Include="JSON_\NotificacionJson.cs" />
+    <Compile Include="JSON_\SeccionJson.cs" />
     <Compile Include="MaterialUI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,13 +178,19 @@
     <EmbeddedResource Include="FrontEnd\Notify\MainMenu\Menu_Admin.resx">
       <DependentUpon>Menu_Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrontEnd\Notify\MENU_USUARIO\MENU_USER.resx">
+    <EmbeddedResource Include="FrontEnd\Notify\MainMenu\MENU_USER.resx">
       <DependentUpon>MENU_USER.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrontEnd\Notify\MENU_USUARIO\Notificacion_User\UserNot.resx">
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.resx">
       <DependentUpon>UserNot.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrontEnd\Notify\MENU_USUARIO\Seccion_User\SecNot.resx">
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Seccion_User\seccion_mod.resx">
+      <DependentUpon>seccion_mod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Seccion_User\seccion_notificacion.resx">
+      <DependentUpon>seccion_notificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Seccion_User\SecNot.resx">
       <DependentUpon>SecNot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Notify\Admin_\NOTIFICACIONES\notificaciones_view.resx">
@@ -211,8 +223,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FrontEnd\Notify\MENU_USUARIO\Grupo_User\" />
+    <Folder Include="FrontEnd\Notify\Usuario_\Grupo_User\" />
     <Folder Include="JSON_\NotificacionesUsuario\" />
+    <Folder Include="JSON_\SeccionesUsuario\" />
     <Folder Include="System\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

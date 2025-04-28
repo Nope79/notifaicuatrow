@@ -44,7 +44,6 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             {
                 MessageBox.Show("No se pudo cargar la tabla...");
             }
-
         }
 
         private void btn_notificacion_Click(object sender, EventArgs e)
