@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
 using Not.Backend;
 using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User;
 using System;
@@ -21,11 +22,20 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
         public seccion_notificacion(Usuario u, SeccionJson seccionJson)
         {
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
             Text = seccionJson.NOMBRE;
             lbl_bienvenue.Text = "Hola " + u.usuario;
             this.u = u;
             this.seccionJson = seccionJson;
-            this.ruta = @"C:\Users\nopes\Downloads\Notify\main\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
+            this.ruta = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
         }
 
         private void seccion_notificacion_Load(object sender, EventArgs e)

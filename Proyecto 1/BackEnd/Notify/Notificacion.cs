@@ -103,6 +103,36 @@ namespace Not.Backend
             return dataTable;
         }
 
+        public DataTable mostrar_not_grupo(GrupoJson g)
+        {
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                c.OpenConnection();
+
+                string name = g.NOMBRE;
+                string query = "select n.idn as ID, n.tipo as TIPO, n.remitente as REMITENTE, n.descripcion as DESCRIPCIÓN, n.fecha as FECHA from notificacion n join grupo g on n.receptor = g.nombre where g.nombre  = " + '"' + name + '"' + " order by fecha desc";
+                using (MySqlCommand command = new MySqlCommand(query, c.GetConnection()))
+                {
+                    using (MySqlDataAdapter adapter = new MySqlDataAdapter(command))
+                    {
+                        adapter.Fill(dataTable);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                //Console.WriteLine(ex);
+            }
+            finally
+            {
+                c.CloseConnection();
+            }
+
+            return dataTable;
+        }
+
         public List<NotificacionJson> ConvertirDataTableALista(DataTable dt, Usuario u)
         {
             List<NotificacionJson> listaNotificaciones = new List<NotificacionJson>();

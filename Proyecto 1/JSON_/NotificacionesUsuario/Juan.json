@@ -45,7 +45,7 @@
     "REMITENTE": "direccion@empresa.com",
     "DESCRIPCIÓN": "quizas",
     "FECHA": "09/04/2025 12:00:00 a. m.",
-    "ESTADO": true
+    "ESTADO": false
   },
   {
     "ID": 20,
@@ -53,7 +53,7 @@
     "REMITENTE": "rh@empresa.com",
     "DESCRIPCIÓN": "Botones de gomita",
     "FECHA": "08/04/2025 12:00:00 a. m.",
-    "ESTADO": true
+    "ESTADO": false
   },
   {
     "ID": 30,
@@ -61,7 +61,7 @@
     "REMITENTE": "rh@empresa.com",
     "DESCRIPCIÓN": "aguante bloodgod",
     "FECHA": "08/04/2025 12:00:00 a. m.",
-    "ESTADO": true
+    "ESTADO": false
   },
   {
     "ID": 22,
@@ -78,5 +78,13 @@
     "DESCRIPCIÓN": "ey",
     "FECHA": "07/04/2025 12:00:00 a. m.",
     "ESTADO": true
+  },
+  {
+    "ID": 36,
+    "TIPO": "bloodborne goty",
+    "REMITENTE": "rh@empresa.com",
+    "DESCRIPCIÓN": "pancho barraza",
+    "FECHA": "08/04/2025 12:00:00 a. m.",
+    "ESTADO": false
   }
 ]

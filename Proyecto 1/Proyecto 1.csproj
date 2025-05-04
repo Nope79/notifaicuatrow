@@ -107,11 +107,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BackEnd\Conexion.cs" />
+    <Compile Include="BackEnd\LoginLogin\LoginService.cs" />
+    <Compile Include="BackEnd\LoginLogin\RegistroService.cs" />
     <Compile Include="BackEnd\Notify\Administrador.cs" />
     <Compile Include="BackEnd\Notify\Grupo.cs" />
     <Compile Include="BackEnd\Notify\Notificacion.cs" />
     <Compile Include="BackEnd\Notify\Usuarios.cs" />
-    <Compile Include="CustomUI.cs" />
+    <Compile Include="FrontEnd\Notify\Login\Login_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Login\Registro_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrontEnd\Notify\Admin_\GRUPOS\grupos_view.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +136,24 @@
     </Compile>
     <Compile Include="FrontEnd\Notify\MainMenu\MENU_USER.Designer.cs">
       <DependentUpon>MENU_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\GrupNot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\GrupNot.Designer.cs">
+      <DependentUpon>GrupNot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_mod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_mod.Designer.cs">
+      <DependentUpon>grupo_mod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_notificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_notificacion.Designer.cs">
+      <DependentUpon>grupo_notificacion.cs</DependentUpon>
     </Compile>
     <Compile Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.cs">
       <SubType>Form</SubType>
@@ -166,12 +191,18 @@
     <Compile Include="FrontEnd\Notify\Admin_\USUARIOS\usuarios_view.Designer.cs">
       <DependentUpon>usuarios_view.cs</DependentUpon>
     </Compile>
+    <Compile Include="JSON_\GrupoJson.cs" />
     <Compile Include="JSON_\JsonHelper.cs" />
     <Compile Include="JSON_\NotificacionJson.cs" />
     <Compile Include="JSON_\SeccionJson.cs" />
-    <Compile Include="MaterialUI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrontEnd\Notify\Login\Login_View.resx">
+      <DependentUpon>Login_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Login\Registro_View.resx">
+      <DependentUpon>Registro_View.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Notify\Admin_\GRUPOS\grupos_view.resx">
       <DependentUpon>grupos_view.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +211,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Notify\MainMenu\MENU_USER.resx">
       <DependentUpon>MENU_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Grupo_User\GrupNot.resx">
+      <DependentUpon>GrupNot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_mod.resx">
+      <DependentUpon>grupo_mod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_notificacion.resx">
+      <DependentUpon>grupo_notificacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.resx">
       <DependentUpon>UserNot.cs</DependentUpon>
@@ -223,10 +263,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FrontEnd\Notify\Usuario_\Grupo_User\" />
+    <Folder Include="JSON_\GruposUsuario\" />
     <Folder Include="JSON_\NotificacionesUsuario\" />
     <Folder Include="JSON_\SeccionesUsuario\" />
     <Folder Include="System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FrontEnd\images\icons8-microsoft-authenticator-250.png" />
+    <Content Include="FrontEnd\images\icons8-microsoft-authenticator-500.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.NETFramework.ReferenceAssemblies.net472.1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net472.targets" Condition="Exists('..\packages\Microsoft.NETFramework.ReferenceAssemblies.net472.1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net472.targets')" />

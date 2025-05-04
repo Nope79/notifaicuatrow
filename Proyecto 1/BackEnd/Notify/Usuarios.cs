@@ -23,6 +23,11 @@ namespace Not.Backend
         //public int id_grupo;
         Conexion c = new Conexion();
 
+        public Usuario(string usuario)
+        {
+            this.usuario = usuario;
+        }
+
         public Usuario()
         {
 

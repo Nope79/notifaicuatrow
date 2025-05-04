@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
 using Not.Backend;
 using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User;
 using System;
@@ -27,6 +28,15 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
         public seccion_mod(int opcion, Usuario u)
         {
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
             this.u = u;
             this.opcion = opcion;
             Text = "Crea una nueva sección " + u.usuario;
@@ -38,6 +48,15 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
         public seccion_mod(int opcion, Usuario u, SeccionJson seccionJson)
         {
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
             this.u = u;
             this.aux = seccionJson;
             this.opcion = opcion;
@@ -46,7 +65,7 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
             txb_desc.Text = seccionJson.DESCRIPCIÓN;
             txb_filtro.Text = seccionJson.FILTRO;
 
-            rutaArchivoJson = @"C:\Users\nopes\Downloads\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
         }
 
         private void seccion_mod_Load(object sender, EventArgs e)

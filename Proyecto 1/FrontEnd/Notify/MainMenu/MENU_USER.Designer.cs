@@ -1,4 +1,7 @@
-﻿namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
 {
     partial class MENU_USER
     {
@@ -28,7 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.lbl_bienvenue = new MaterialSkin.Controls.MaterialLabel();
             this.grid_panel = new System.Windows.Forms.Panel();
@@ -46,7 +49,7 @@
             // 
             // main_panel
             // 
-            this.main_panel.BackColor = System.Drawing.Color.PowderBlue;
+            this.main_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.main_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.main_panel.Controls.Add(this.lbl_bienvenue);
             this.main_panel.Controls.Add(this.grid_panel);
@@ -71,7 +74,7 @@
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.grid_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_not_impor);
             this.grid_panel.Location = new System.Drawing.Point(253, 71);
@@ -87,17 +90,18 @@
             this.dgv_not_impor.AllowUserToResizeRows = false;
             this.dgv_not_impor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_not_impor.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.LightSlateGray;
+            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.White;
             this.dgv_not_impor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_not_impor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_not_impor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(157)))), ((int)(((byte)(219)))));
             this.dgv_not_impor.Location = new System.Drawing.Point(40, 38);
             this.dgv_not_impor.Name = "dgv_not_impor";
             this.dgv_not_impor.ReadOnly = true;
@@ -109,7 +113,6 @@
             // 
             // menu_panel
             // 
-            this.menu_panel.BackColor = System.Drawing.Color.LightSlateGray;
             this.menu_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menu_panel.Controls.Add(this.btn_notificacion);
             this.menu_panel.Controls.Add(this.btn_secciones);
@@ -119,12 +122,18 @@
             this.menu_panel.Name = "menu_panel";
             this.menu_panel.Size = new System.Drawing.Size(208, 417);
             this.menu_panel.TabIndex = 0;
+            this.menu_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.menu_panel_Paint);
+            this.menu_panel.BackColor = ColorTranslator.FromHtml("#c4b4f3");
             // 
             // btn_notificacion
             // 
             this.btn_notificacion.AutoSize = true;
             this.btn_notificacion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_notificacion.BackColor = ColorTranslator.FromHtml("#5439ad");
             this.btn_notificacion.Depth = 0;
+            this.btn_notificacion.FlatAppearance.BorderSize = 0;
+            this.btn_notificacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_notificacion.ForeColor = System.Drawing.Color.White;
             this.btn_notificacion.Icon = null;
             this.btn_notificacion.Location = new System.Drawing.Point(3, 25);
             this.btn_notificacion.MouseState = MaterialSkin.MouseState.HOVER;
@@ -133,14 +142,18 @@
             this.btn_notificacion.Size = new System.Drawing.Size(158, 36);
             this.btn_notificacion.TabIndex = 3;
             this.btn_notificacion.Text = "Notificaciones";
-            this.btn_notificacion.UseVisualStyleBackColor = true;
+            this.btn_notificacion.UseVisualStyleBackColor = false;
             this.btn_notificacion.Click += new System.EventHandler(this.btn_notificacion_Click);
             // 
             // btn_secciones
             // 
             this.btn_secciones.AutoSize = true;
             this.btn_secciones.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_secciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(117)))), ((int)(((byte)(205)))));
             this.btn_secciones.Depth = 0;
+            this.btn_secciones.FlatAppearance.BorderSize = 0;
+            this.btn_secciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_secciones.ForeColor = System.Drawing.Color.White;
             this.btn_secciones.Icon = null;
             this.btn_secciones.Location = new System.Drawing.Point(3, 128);
             this.btn_secciones.MouseState = MaterialSkin.MouseState.HOVER;
@@ -149,14 +162,18 @@
             this.btn_secciones.Size = new System.Drawing.Size(113, 36);
             this.btn_secciones.TabIndex = 2;
             this.btn_secciones.Text = "Secciones";
-            this.btn_secciones.UseVisualStyleBackColor = true;
+            this.btn_secciones.UseVisualStyleBackColor = false;
             this.btn_secciones.Click += new System.EventHandler(this.btn_secciones_Click);
             // 
             // btn_grupos
             // 
             this.btn_grupos.AutoSize = true;
             this.btn_grupos.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_grupos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(117)))), ((int)(((byte)(205)))));
             this.btn_grupos.Depth = 0;
+            this.btn_grupos.FlatAppearance.BorderSize = 0;
+            this.btn_grupos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_grupos.ForeColor = System.Drawing.Color.White;
             this.btn_grupos.Icon = null;
             this.btn_grupos.Location = new System.Drawing.Point(3, 219);
             this.btn_grupos.MouseState = MaterialSkin.MouseState.HOVER;
@@ -165,13 +182,18 @@
             this.btn_grupos.Size = new System.Drawing.Size(89, 36);
             this.btn_grupos.TabIndex = 1;
             this.btn_grupos.Text = "Grupos";
-            this.btn_grupos.UseVisualStyleBackColor = true;
+            this.btn_grupos.UseVisualStyleBackColor = false;
+            this.btn_grupos.Click += new System.EventHandler(this.btn_grupos_Click);
             // 
             // btn_back
             // 
             this.btn_back.AutoSize = true;
             this.btn_back.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_back.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(117)))), ((int)(((byte)(205)))));
             this.btn_back.Depth = 0;
+            this.btn_back.FlatAppearance.BorderSize = 0;
+            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_back.ForeColor = System.Drawing.Color.White;
             this.btn_back.Icon = null;
             this.btn_back.Location = new System.Drawing.Point(3, 344);
             this.btn_back.MouseState = MaterialSkin.MouseState.HOVER;
@@ -180,7 +202,7 @@
             this.btn_back.Size = new System.Drawing.Size(107, 36);
             this.btn_back.TabIndex = 0;
             this.btn_back.Text = "Regresar";
-            this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.UseVisualStyleBackColor = false;
             // 
             // MENU_USER
             // 

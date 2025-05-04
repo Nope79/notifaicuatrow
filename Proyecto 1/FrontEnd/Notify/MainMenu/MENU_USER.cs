@@ -14,6 +14,8 @@ using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User;
 using MaterialSkin.Controls;
 using Proyecto_1.BackEnd;
 using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User;
+using Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User;
+using MaterialSkin;
 
 namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
 {
@@ -21,15 +23,19 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
     {
         Notificacion n = new Notificacion();
         Usuario u = new Usuario();
-        public MENU_USER()
-        {
-            InitializeComponent();
-            lbl_bienvenue.Text = "Bienvenido ";
-        }
 
         public MENU_USER(Not.Backend.Usuario u)
         {
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
             this.u = u;
             lbl_bienvenue.Text = "Bienvenido " + u.usuario;
         }
@@ -58,6 +64,18 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             SecNot sn = new SecNot(u);
             sn.Show();
             this.Hide();    
+        }
+
+        private void btn_grupos_Click(object sender, EventArgs e)
+        {
+            GrupNot gn = new GrupNot(u);
+            gn.Show();
+            this.Hide();
+        }
+
+        private void menu_panel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

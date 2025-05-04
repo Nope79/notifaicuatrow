@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin;
 using MaterialSkin.Controls;
 using Not.Backend;
 using Proyecto_1.BackEnd;
@@ -23,7 +24,16 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User
         {
             this.u = u;
             InitializeComponent();
-            rutaArchivoJson = @"C:\Users\nopes\Downloads\Notify\main\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
         }
 
         private void btn_notificacion_Click(object sender, EventArgs e)

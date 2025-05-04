@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
 using Not.Backend;
 using Proyecto_1.BackEnd;
 using Proyecto_1.FrontEnd.Notify.MainMenu;
@@ -18,11 +19,29 @@ namespace Proyecto_1.FrontEnd.Notify.USUARIOS
         public usuarios_view()
         {
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
         }
 
         public usuarios_view(Usuario u)
         {
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
 
             txb_nombre.Text = u.nombre;
             txb_usuario.Text = u.usuario;

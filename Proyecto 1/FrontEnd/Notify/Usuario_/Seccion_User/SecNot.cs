@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
 using Not.Backend;
 using Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User;
 using System;
@@ -22,8 +23,17 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
         {
             this.u = u;
             InitializeComponent();
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
             menu_lbl.Text = "Aquí están tus secciones " + u.usuario;
-            rutaArchivoJson = @"C:\Users\nopes\Downloads\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
         }
 
         private void SecNot_Load(object sender, EventArgs e)

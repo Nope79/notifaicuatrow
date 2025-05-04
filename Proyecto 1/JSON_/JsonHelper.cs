@@ -1,13 +1,13 @@
 ﻿using Newtonsoft.Json;
 using System.IO;
 using System.Collections.Generic;
-using System.Xml;
 using System.ComponentModel;
 using System;
 using System.Linq;
 
 public class JsonHelper
 {
+    // notificacion
     public static List<NotificacionJson> CargarNotificacionesJson(string archivoJson)
     {
         List<NotificacionJson> notificaciones = new List<NotificacionJson>();
@@ -62,7 +62,6 @@ public class JsonHelper
         return notificacionesConCampos;
     }
 
-    // notificacion
     public static void GuardarNotificacionesJson(List<NotificacionJson> notificaciones, string archivoJson)
     {
         string nuevoJson = Newtonsoft.Json.JsonConvert.SerializeObject(notificaciones, Newtonsoft.Json.Formatting.Indented);
@@ -85,6 +84,10 @@ public class JsonHelper
             {
                 string jsonExistente = File.ReadAllText(archivoJson);
                 secciones = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SeccionJson>>(jsonExistente) ?? new List<SeccionJson>();
+            }
+            else
+            {
+                File.WriteAllText(archivoJson, "[]");
             }
 
             secciones.Add(nuevaSeccion);
@@ -109,6 +112,10 @@ public class JsonHelper
             {
                 string jsonExistente = File.ReadAllText(archivoJson);
                 secciones = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SeccionJson>>(jsonExistente) ?? new List<SeccionJson>();
+            }
+            else
+            {
+                File.WriteAllText(archivoJson, "[]");
             }
 
             int indice = secciones.FindIndex(s =>
@@ -145,6 +152,10 @@ public class JsonHelper
             {
                 string jsonExistente = File.ReadAllText(archivoJson);
                 secciones = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SeccionJson>>(jsonExistente) ?? new List<SeccionJson>();
+            }
+            else
+            {
+                File.WriteAllText(archivoJson, "[]");
             }
 
             int indice = secciones.FindIndex(s =>
@@ -187,5 +198,129 @@ public class JsonHelper
         }
 
         return secciones;
+    }
+
+    // grupo
+
+    public static bool GuardarGrupoJson(GrupoJson nuevaSeccion, string archivoJson)
+    {
+        try
+        {
+            List<GrupoJson> grupos = new List<GrupoJson>();
+
+            if (File.Exists(archivoJson))
+            {
+                string jsonExistente = File.ReadAllText(archivoJson);
+                grupos = Newtonsoft.Json.JsonConvert.DeserializeObject<List<GrupoJson>>(jsonExistente) ?? new List<GrupoJson>();
+            }
+            else
+            {
+                File.WriteAllText(archivoJson, "[]");
+            }
+
+            grupos.Add(nuevaSeccion);
+
+            string nuevoJson = Newtonsoft.Json.JsonConvert.SerializeObject(grupos, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(archivoJson, nuevoJson);
+            return true;
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
+    }
+
+    public static bool actualizarGrupoJson(GrupoJson viejoGrupo, GrupoJson nuevoGrupo, string archivoJson)
+    {
+        try
+        {
+            List<GrupoJson> grupos = new List<GrupoJson>();
+
+            if (File.Exists(archivoJson))
+            {
+                string jsonExistente = File.ReadAllText(archivoJson);
+                grupos = Newtonsoft.Json.JsonConvert.DeserializeObject<List<GrupoJson>>(jsonExistente) ?? new List<GrupoJson>();
+            }
+            else
+            {
+                File.WriteAllText(archivoJson, "[]");
+            }
+
+            int indice = grupos.FindIndex(g =>
+                g.NOMBRE == viejoGrupo.NOMBRE
+            );
+
+            if (indice != -1)
+            {
+                grupos[indice] = nuevoGrupo;
+
+                string nuevoJson = Newtonsoft.Json.JsonConvert.SerializeObject(grupos, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(archivoJson, nuevoJson);
+
+                return true;
+            }
+
+            return false;
+        }
+        catch (Exception)
+        {
+            return false;
+        }
+    }
+
+    public static bool eliminarGrupoJson(GrupoJson Grupo, string archivoJson)
+    {
+        try
+        {
+            List<GrupoJson> grupos = new List<GrupoJson>();
+
+            if (File.Exists(archivoJson))
+            {
+                string jsonExistente = File.ReadAllText(archivoJson);
+                grupos = Newtonsoft.Json.JsonConvert.DeserializeObject<List<GrupoJson>>(jsonExistente) ?? new List<GrupoJson>();
+            }
+            else
+            {
+                File.WriteAllText(archivoJson, "[]");
+            }
+
+            int indice = grupos.FindIndex(g =>
+                g.NOMBRE == Grupo.NOMBRE
+            );
+
+            if (indice != -1)
+            {
+                grupos.RemoveAt(indice);
+
+                string nuevoJson = Newtonsoft.Json.JsonConvert.SerializeObject(grupos, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(archivoJson, nuevoJson);
+
+                return true;
+            }
+
+            return false;
+        }
+        catch (Exception)
+        {
+            return false;
+        }
+    }
+
+
+    public static List<GrupoJson> cargarGrupoJson(string archivoJson)
+    {
+        List<GrupoJson> grupos = new List<GrupoJson>();
+
+        if (File.Exists(archivoJson))
+        {
+            string json = File.ReadAllText(archivoJson);
+            grupos = JsonConvert.DeserializeObject<List<GrupoJson>>(json);
+        }
+        else
+        {
+            File.WriteAllText(archivoJson, "[]");
+        }
+
+        return grupos;
     }
 }

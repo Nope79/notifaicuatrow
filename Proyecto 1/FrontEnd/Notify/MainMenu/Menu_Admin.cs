@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using Proyecto_1.FrontEnd.Notify.NOTIFICACIONES;
 using Proyecto_1.FrontEnd.Notify.USUARIOS;
 using Proyecto_1.FrontEnd.Notify.GRUPOS;
+using MaterialSkin;
 
 namespace Proyecto_1.FrontEnd.Notify.MainMenu
 {
@@ -18,6 +19,16 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
         {
             this.opcion = opcion;
             InitializeComponent();
+
+            MaterialSkinManager skinManager = MaterialSkinManager.Instance;
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(
+                Primary.DeepPurple500,
+                Primary.DeepPurple700,
+                Primary.DeepPurple200,
+                Accent.Purple200,
+                TextShade.WHITE
+            );
 
             // not, usuario, grupo
             if (opcion == 1)
