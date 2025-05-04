@@ -30,7 +30,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.menu_lbl = new MaterialSkin.Controls.MaterialLabel();
             this.btn_panel = new System.Windows.Forms.Panel();
@@ -53,7 +53,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             // 
             // main_panel
             // 
-            this.main_panel.BackColor = System.Drawing.Color.PowderBlue;
+            this.main_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.main_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.main_panel.Controls.Add(this.menu_lbl);
             this.main_panel.Controls.Add(this.btn_panel);
@@ -79,7 +79,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             // 
             // btn_panel
             // 
-            this.btn_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btn_panel.BackColor = System.Drawing.Color.White;
             this.btn_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btn_panel.Controls.Add(this.btn_delete);
             this.btn_panel.Controls.Add(this.btn_update);
@@ -140,7 +140,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.grid_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_main);
             this.grid_panel.Location = new System.Drawing.Point(302, 71);
@@ -156,17 +156,17 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             this.dgv_main.AllowUserToResizeRows = false;
             this.dgv_main.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_main.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_main.BackgroundColor = System.Drawing.Color.LightSlateGray;
+            this.dgv_main.BackgroundColor = System.Drawing.Color.White;
             this.dgv_main.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_main.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_main.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_main.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_main.Location = new System.Drawing.Point(40, 38);
             this.dgv_main.Name = "dgv_main";
             this.dgv_main.ReadOnly = true;
@@ -179,7 +179,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             // 
             // menu_panel
             // 
-            this.menu_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.menu_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.menu_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menu_panel.Controls.Add(this.btn_notificacion);
             this.menu_panel.Controls.Add(this.btn_usuarios);
@@ -192,13 +192,15 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             // 
             // btn_notificacion
             // 
+            this.btn_notificacion.AutoSize = true;
+            this.btn_notificacion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_notificacion.Depth = 0;
             this.btn_notificacion.Icon = null;
             this.btn_notificacion.Location = new System.Drawing.Point(3, 25);
             this.btn_notificacion.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_notificacion.Name = "btn_notificacion";
             this.btn_notificacion.Primary = true;
-            this.btn_notificacion.Size = new System.Drawing.Size(198, 36);
+            this.btn_notificacion.Size = new System.Drawing.Size(158, 36);
             this.btn_notificacion.TabIndex = 3;
             this.btn_notificacion.Text = "Notificaciones";
             this.btn_notificacion.UseVisualStyleBackColor = true;

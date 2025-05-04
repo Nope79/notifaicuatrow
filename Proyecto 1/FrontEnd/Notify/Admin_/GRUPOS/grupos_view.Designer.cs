@@ -29,28 +29,39 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.btn_guardar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_back = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.txb_desc = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.txb_nombre = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txb_desc = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.lbl_desc = new MaterialSkin.Controls.MaterialLabel();
             this.lbl_nombre = new MaterialSkin.Controls.MaterialLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.PowderBlue;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-16, 62);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(569, 268);
             this.panel1.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.btn_guardar);
+            this.panel4.Controls.Add(this.btn_back);
+            this.panel4.Location = new System.Drawing.Point(44, 175);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(492, 68);
+            this.panel4.TabIndex = 3;
             // 
             // btn_guardar
             // 
@@ -84,22 +95,18 @@
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
-            // txb_desc
+            // panel2
             // 
-            this.txb_desc.Depth = 0;
-            this.txb_desc.Hint = "";
-            this.txb_desc.Location = new System.Drawing.Point(195, 61);
-            this.txb_desc.MaxLength = 60;
-            this.txb_desc.MouseState = MaterialSkin.MouseState.HOVER;
-            this.txb_desc.Name = "txb_desc";
-            this.txb_desc.PasswordChar = '\0';
-            this.txb_desc.SelectedText = "";
-            this.txb_desc.SelectionLength = 0;
-            this.txb_desc.SelectionStart = 0;
-            this.txb_desc.Size = new System.Drawing.Size(299, 28);
-            this.txb_desc.TabIndex = 3;
-            this.txb_desc.TabStop = false;
-            this.txb_desc.UseSystemPasswordChar = false;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.txb_nombre);
+            this.panel2.Controls.Add(this.txb_desc);
+            this.panel2.Controls.Add(this.lbl_desc);
+            this.panel2.Controls.Add(this.lbl_nombre);
+            this.panel2.Location = new System.Drawing.Point(28, 26);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(523, 108);
+            this.panel2.TabIndex = 1;
             // 
             // txb_nombre
             // 
@@ -117,6 +124,23 @@
             this.txb_nombre.TabIndex = 2;
             this.txb_nombre.TabStop = false;
             this.txb_nombre.UseSystemPasswordChar = false;
+            // 
+            // txb_desc
+            // 
+            this.txb_desc.Depth = 0;
+            this.txb_desc.Hint = "";
+            this.txb_desc.Location = new System.Drawing.Point(195, 61);
+            this.txb_desc.MaxLength = 60;
+            this.txb_desc.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txb_desc.Name = "txb_desc";
+            this.txb_desc.PasswordChar = '\0';
+            this.txb_desc.SelectedText = "";
+            this.txb_desc.SelectionLength = 0;
+            this.txb_desc.SelectionStart = 0;
+            this.txb_desc.Size = new System.Drawing.Size(299, 28);
+            this.txb_desc.TabIndex = 3;
+            this.txb_desc.TabStop = false;
+            this.txb_desc.UseSystemPasswordChar = false;
             // 
             // lbl_desc
             // 
@@ -144,30 +168,6 @@
             this.lbl_nombre.TabIndex = 0;
             this.lbl_nombre.Text = "Nombre";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.txb_nombre);
-            this.panel2.Controls.Add(this.txb_desc);
-            this.panel2.Controls.Add(this.lbl_desc);
-            this.panel2.Controls.Add(this.lbl_nombre);
-            this.panel2.Location = new System.Drawing.Point(28, 26);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(523, 108);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.LightSlateGray;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.btn_guardar);
-            this.panel4.Controls.Add(this.btn_back);
-            this.panel4.Location = new System.Drawing.Point(44, 175);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(492, 68);
-            this.panel4.TabIndex = 3;
-            // 
             // grupos_view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -179,10 +179,10 @@
             this.Text = "GRUPOS";
             this.Load += new System.EventHandler(this.grupos_view_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }

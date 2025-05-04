@@ -43,7 +43,7 @@
             // 
             // main_panel
             // 
-            this.main_panel.BackColor = System.Drawing.Color.PowderBlue;
+            this.main_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.main_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.main_panel.Controls.Add(this.lbl_bienvenue);
             this.main_panel.Controls.Add(this.grid_panel);
@@ -68,7 +68,7 @@
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.grid_panel.BackColor = System.Drawing.Color.White;
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_not);
             this.grid_panel.Location = new System.Drawing.Point(151, 50);
@@ -84,7 +84,7 @@
             this.dgv_not.AllowUserToResizeRows = false;
             this.dgv_not.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_not.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_not.BackgroundColor = System.Drawing.Color.LightSlateGray;
+            this.dgv_not.BackgroundColor = System.Drawing.Color.White;
             this.dgv_not.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_not.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
@@ -103,10 +103,11 @@
             this.dgv_not.RowTemplate.Height = 24;
             this.dgv_not.Size = new System.Drawing.Size(857, 269);
             this.dgv_not.TabIndex = 6;
+            this.dgv_not.CellClick += Dgv_not_CellClick;
             // 
             // menu_panel
             // 
-            this.menu_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.menu_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.menu_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menu_panel.Controls.Add(this.btn_back);
             this.menu_panel.Location = new System.Drawing.Point(0, -2);
@@ -148,6 +149,11 @@
             this.menu_panel.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void Dgv_not_CellClick(object sender, System.Windows.Forms.DataGridViewCellEventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
 
         #endregion

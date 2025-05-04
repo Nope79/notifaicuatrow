@@ -34,6 +34,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.main_panel = new System.Windows.Forms.Panel();
             this.menu_lbl = new MaterialSkin.Controls.MaterialLabel();
             this.btn_panel = new System.Windows.Forms.Panel();
+            this.btn_entrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_delete = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_update = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_add = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -41,7 +42,6 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.dgv_sec = new System.Windows.Forms.DataGridView();
             this.menu_panel = new System.Windows.Forms.Panel();
             this.btn_back = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btn_entrar = new MaterialSkin.Controls.MaterialRaisedButton();
             this.main_panel.SuspendLayout();
             this.btn_panel.SuspendLayout();
             this.grid_panel.SuspendLayout();
@@ -51,7 +51,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             // 
             // main_panel
             // 
-            this.main_panel.BackColor = System.Drawing.Color.PowderBlue;
+            this.main_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.main_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.main_panel.Controls.Add(this.menu_lbl);
             this.main_panel.Controls.Add(this.btn_panel);
@@ -77,7 +77,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             // 
             // btn_panel
             // 
-            this.btn_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btn_panel.BackColor = System.Drawing.Color.White;
             this.btn_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btn_panel.Controls.Add(this.btn_entrar);
             this.btn_panel.Controls.Add(this.btn_delete);
@@ -87,6 +87,24 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.btn_panel.Name = "btn_panel";
             this.btn_panel.Size = new System.Drawing.Size(725, 86);
             this.btn_panel.TabIndex = 2;
+            // 
+            // btn_entrar
+            // 
+            this.btn_entrar.AutoSize = true;
+            this.btn_entrar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_entrar.Depth = 0;
+            this.btn_entrar.Enabled = false;
+            this.btn_entrar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_entrar.Icon = null;
+            this.btn_entrar.Location = new System.Drawing.Point(593, 27);
+            this.btn_entrar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_entrar.Name = "btn_entrar";
+            this.btn_entrar.Primary = true;
+            this.btn_entrar.Size = new System.Drawing.Size(87, 36);
+            this.btn_entrar.TabIndex = 3;
+            this.btn_entrar.Text = "Entrar";
+            this.btn_entrar.UseVisualStyleBackColor = true;
+            this.btn_entrar.Click += new System.EventHandler(this.btn_entrar_Click);
             // 
             // btn_delete
             // 
@@ -141,7 +159,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.grid_panel.BackColor = System.Drawing.Color.White;
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_sec);
             this.grid_panel.Location = new System.Drawing.Point(197, 71);
@@ -157,7 +175,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.dgv_sec.AllowUserToResizeRows = false;
             this.dgv_sec.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_sec.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_sec.BackgroundColor = System.Drawing.Color.LightSlateGray;
+            this.dgv_sec.BackgroundColor = System.Drawing.Color.White;
             this.dgv_sec.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_sec.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
@@ -176,11 +194,11 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.dgv_sec.RowTemplate.Height = 24;
             this.dgv_sec.Size = new System.Drawing.Size(614, 142);
             this.dgv_sec.TabIndex = 6;
-            this.dgv_sec.CellClick += this.dgv_sec_CellClick;
+            this.dgv_sec.CellClick += dgv_sec_CellClick;
             // 
             // menu_panel
             // 
-            this.menu_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.menu_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.menu_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menu_panel.Controls.Add(this.btn_back);
             this.menu_panel.Location = new System.Drawing.Point(0, -2);
@@ -203,24 +221,6 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.btn_back.Text = "Regresar";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
-            // 
-            // btn_entrar
-            // 
-            this.btn_entrar.AutoSize = true;
-            this.btn_entrar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_entrar.Depth = 0;
-            this.btn_entrar.Enabled = false;
-            this.btn_entrar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_entrar.Icon = null;
-            this.btn_entrar.Location = new System.Drawing.Point(593, 27);
-            this.btn_entrar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_entrar.Name = "btn_entrar";
-            this.btn_entrar.Primary = true;
-            this.btn_entrar.Size = new System.Drawing.Size(87, 36);
-            this.btn_entrar.TabIndex = 3;
-            this.btn_entrar.Text = "Entrar";
-            this.btn_entrar.UseVisualStyleBackColor = true;
-            this.btn_entrar.Click += new System.EventHandler(this.btn_entrar_Click);
             // 
             // SecNot
             // 

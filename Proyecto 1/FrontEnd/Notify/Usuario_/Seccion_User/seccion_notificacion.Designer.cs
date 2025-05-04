@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.lbl_bienvenue = new MaterialSkin.Controls.MaterialLabel();
             this.grid_panel = new System.Windows.Forms.Panel();
@@ -43,7 +43,7 @@
             // 
             // main_panel
             // 
-            this.main_panel.BackColor = System.Drawing.Color.PowderBlue;
+            this.main_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.main_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.main_panel.Controls.Add(this.lbl_bienvenue);
             this.main_panel.Controls.Add(this.grid_panel);
@@ -68,7 +68,7 @@
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.grid_panel.BackColor = System.Drawing.Color.White;
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_not_impor);
             this.grid_panel.Location = new System.Drawing.Point(151, 50);
@@ -84,17 +84,17 @@
             this.dgv_not_impor.AllowUserToResizeRows = false;
             this.dgv_not_impor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_not_impor.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.LightSlateGray;
+            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.White;
             this.dgv_not_impor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_not_impor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_not_impor.Location = new System.Drawing.Point(40, 38);
             this.dgv_not_impor.Name = "dgv_not_impor";
             this.dgv_not_impor.ReadOnly = true;
@@ -106,7 +106,7 @@
             // 
             // menu_panel
             // 
-            this.menu_panel.BackColor = System.Drawing.Color.LightSlateGray;
+            this.menu_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.menu_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menu_panel.Controls.Add(this.btn_back);
             this.menu_panel.Location = new System.Drawing.Point(0, -2);
@@ -137,6 +137,7 @@
             this.ClientSize = new System.Drawing.Size(1099, 480);
             this.Controls.Add(this.main_panel);
             this.Name = "seccion_notificacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "...";
             this.Load += new System.EventHandler(this.seccion_notificacion_Load);
             this.main_panel.ResumeLayout(false);

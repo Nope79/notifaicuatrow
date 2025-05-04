@@ -48,7 +48,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.PowderBlue;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(-2, 65);
@@ -58,7 +58,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.btn_guardar);
             this.panel2.Controls.Add(this.btn_back);
@@ -101,7 +101,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.lbl_nombre1);
             this.panel3.Controls.Add(this.txb_correo);
@@ -165,7 +165,6 @@
             // 
             // txb_nombre
             // 
-            this.txb_nombre.BackColor = System.Drawing.Color.LightSlateGray;
             this.txb_nombre.Depth = 0;
             this.txb_nombre.Hint = "";
             this.txb_nombre.Location = new System.Drawing.Point(163, 35);
@@ -214,7 +213,6 @@
             // lbl_pass
             // 
             this.lbl_pass.AutoSize = true;
-            this.lbl_pass.BackColor = System.Drawing.Color.LightSlateGray;
             this.lbl_pass.Depth = 0;
             this.lbl_pass.Font = new System.Drawing.Font("Roboto", 11F);
             this.lbl_pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));

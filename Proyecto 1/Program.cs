@@ -19,9 +19,9 @@ namespace Proyecto_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Login_View()); 
+            Application.Run(new Login_View()); 
             //Application.Run(new Menu_Admin(1));
-            Application.Run(new MENU_USER(new Usuario(1, "juan")));
+            //Application.Run(new MENU_USER(new Usuario(1, "juan")));
         }
     }
 }
