@@ -1,90 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\",
+  "WorkspaceRootPath": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\proyecto 1\\backend\\notify\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\backend\\notify\\notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\seccion_notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\seccion_notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\proyecto 1\\backend\\notify\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\backend\\notify\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\seccion_mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\seccion_mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\proyecto 1\\json_\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\json_\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\secnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\secnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\proyecto 1\\backend\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\backend\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupnot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupnot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupo_mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupo_mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupo_notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupo_notificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupo_notificacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\grupo_user\\grupo_notificacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\notificacion_user\\usernot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\notificacion_user\\usernot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\secnot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\secnot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\secnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\usuario_\\seccion_user\\secnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\admin_\\grupos\\grupos_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\admin_\\grupos\\grupos_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\mainmenu\\menu_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\mainmenu\\menu_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\admin_\\notificaciones\\notificaciones_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\admin_\\notificaciones\\notificaciones_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\admin_\\usuarios\\usuarios_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\admin_\\usuarios\\usuarios_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\mainmenu\\menu_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\mainmenu\\menu_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\login\\registro_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\login\\registro_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\login\\login_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\login\\login_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify\\main\\proyecto 1\\frontend\\notify\\mainmenu\\menu_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\frontend\\notify\\mainmenu\\menu_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|c:\\users\\nopes\\onedrive\\escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\proyecto 1\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7ECB4EC2-1FD4-4DF7-AE44-17AE4E0EB9DC}|Proyecto 1\\Proyecto 1.csproj|solutionrelative:proyecto 1\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -96,6 +32,45 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\BackEnd\\Notify\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Proyecto 1\\BackEnd\\Notify\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\BackEnd\\Notify\\Usuarios.cs",
+              "RelativeToolTip": "Proyecto 1\\BackEnd\\Notify\\Usuarios.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:51:34.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\JSON_\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "Proyecto 1\\JSON_\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\JSON_\\JsonHelper.cs",
+              "RelativeToolTip": "Proyecto 1\\JSON_\\JsonHelper.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswGcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:35:35.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\BackEnd\\Conexion.cs",
+              "RelativeDocumentMoniker": "Proyecto 1\\BackEnd\\Conexion.cs",
+              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\BackEnd\\Conexion.cs*",
+              "RelativeToolTip": "Proyecto 1\\BackEnd\\Conexion.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:27:37.524Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -110,262 +85,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GrupNot.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAWwG4AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Notificacion.cs",
+              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\BackEnd\\Notify\\Notificacion.cs",
+              "RelativeDocumentMoniker": "Proyecto 1\\BackEnd\\Notify\\Notificacion.cs",
+              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\BackEnd\\Notify\\Notificacion.cs*",
+              "RelativeToolTip": "Proyecto 1\\BackEnd\\Notify\\Notificacion.cs*",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAIwJcAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:27:49.811Z",
+              "WhenOpened": "2025-05-24T20:27:16.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GrupNot.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\GrupNot.Designer.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\GrupNot.Designer.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\GrupNot.Designer.cs",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\GrupNot.Designer.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAuwPIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:25:39.355Z",
+              "Title": "Readme.md",
+              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\Readme.md",
+              "RelativeDocumentMoniker": "Proyecto 1\\Readme.md",
+              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\notify v4w dise\u00F1o listo\\notifaicuatrow\\notifaicuatrow\\Proyecto 1\\Readme.md",
+              "RelativeToolTip": "Proyecto 1\\Readme.md",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-24T20:15:02.107Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "grupo_notificacion.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\grupo_notificacion.Designer.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\grupo_notificacion.Designer.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\grupo_notificacion.Designer.cs",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Grupo_User\\grupo_notificacion.Designer.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAYwGoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:23:47.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\Program.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\Program.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\Program.cs*",
-              "RelativeToolTip": "Proyecto 1\\Program.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:17:30.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SecNot.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.Designer.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.Designer.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.Designer.cs",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.Designer.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAYwMQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:16:19.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SecNot.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:14:22.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "grupos_view.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Admin_\\GRUPOS\\grupos_view.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Admin_\\GRUPOS\\grupos_view.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Admin_\\GRUPOS\\grupos_view.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Admin_\\GRUPOS\\grupos_view.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:11:18.06Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "notificaciones_view.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Admin_\\NOTIFICACIONES\\notificaciones_view.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Admin_\\NOTIFICACIONES\\notificaciones_view.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Admin_\\NOTIFICACIONES\\notificaciones_view.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Admin_\\NOTIFICACIONES\\notificaciones_view.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:10:39.536Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "usuarios_view.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Admin_\\USUARIOS\\usuarios_view.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Admin_\\USUARIOS\\usuarios_view.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Admin_\\USUARIOS\\usuarios_view.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Admin_\\USUARIOS\\usuarios_view.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:09:38.595Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Registro_View.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Login\\Registro_View.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Login\\Registro_View.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Login\\Registro_View.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Login\\Registro_View.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:08:57.342Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login_View.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Login\\Login_View.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Login\\Login_View.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Login\\Login_View.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Login\\Login_View.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:08:54.989Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GrupNot.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\GrupNot.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:07:30.874Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "grupo_mod.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_mod.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_mod.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_mod.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_mod.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:06:28.719Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "grupo_notificacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_notificacion.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_notificacion.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_notificacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\grupo_user\\grupo_notificacion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:05:44.508Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserNot.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Notificacion_User\\UserNot.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Notificacion_User\\UserNot.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Notificacion_User\\UserNot.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Notificacion_User\\UserNot.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:04:54.58Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SecNot.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\SecNot.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:03:34.626Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "seccion_notificacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_notificacion.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_notificacion.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_notificacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_notificacion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:02:43.244Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "seccion_mod.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_mod.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_mod.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_mod.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\Usuario_\\Seccion_User\\seccion_mod.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:01:34.513Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Menu_Admin.cs",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAvwPcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T20:59:48.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Menu_Admin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\MainMenu\\Menu_Admin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T20:59:01.428Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MENU_USER.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\MainMenu\\MENU_USER.cs",
-              "RelativeDocumentMoniker": "Proyecto 1\\FrontEnd\\Notify\\MainMenu\\MENU_USER.cs",
-              "ToolTip": "C:\\Users\\nopes\\OneDrive\\Escritorio\\Notify\\main\\Proyecto 1\\FrontEnd\\Notify\\MainMenu\\MENU_USER.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto 1\\FrontEnd\\Notify\\MainMenu\\MENU_USER.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T20:58:44.084Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

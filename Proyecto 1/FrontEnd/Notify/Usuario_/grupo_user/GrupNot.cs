@@ -34,7 +34,7 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User
                 TextShade.WHITE
             );
             menu_lbl.Text = "Aquí están tus grupos " + u.usuario;
-            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\GruposUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\notify v4w diseño listo\notifaicuatrow\notifaicuatrow\Proyecto 1\JSON_\GruposUsuario\" + u.usuario + ".json";
         }
 
         private void btn_back_Click(object sender, EventArgs e)

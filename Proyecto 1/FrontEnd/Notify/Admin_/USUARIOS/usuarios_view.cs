@@ -45,7 +45,6 @@ namespace Proyecto_1.FrontEnd.Notify.USUARIOS
 
             txb_nombre.Text = u.nombre;
             txb_usuario.Text = u.usuario;
-            txb_pass.Text = u.password;
             txb_correo.Text = u.correo;
             modo = true;
             llave = u.id;
@@ -68,7 +67,7 @@ namespace Proyecto_1.FrontEnd.Notify.USUARIOS
             string val = validar();
             if (val == "Válido")
             {
-                Usuario x = new Usuario(llave, txb_usuario.Text, txb_pass.Text, txb_nombre.Text, txb_correo.Text, 1);
+                Usuario x = new Usuario(llave, txb_usuario.Text, txb_pass.Text, txb_nombre.Text, txb_correo.Text);
                 if (!modo)
                 {
                     // Intentamos realizar la insersion
@@ -82,7 +81,6 @@ namespace Proyecto_1.FrontEnd.Notify.USUARIOS
                     else MessageBox.Show("Ha ocurrido un error. No se ha realizado la actualización.");
                 }
 
-                // Volvemos a la pagina de areas
                 Menu_Admin m = new Menu_Admin(2);
                 m.Show();
                 this.Hide();
@@ -109,7 +107,6 @@ namespace Proyecto_1.FrontEnd.Notify.USUARIOS
             
             return "Válido";
         }
-
         private void lbl_correo_Click(object sender, EventArgs e)
         {
 

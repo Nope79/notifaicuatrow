@@ -73,7 +73,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.White;
+            this.grid_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_not_impor);
             this.grid_panel.Location = new System.Drawing.Point(253, 71);
@@ -89,7 +89,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User
             this.dgv_not_impor.AllowUserToResizeRows = false;
             this.dgv_not_impor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_not_impor.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.dgv_not_impor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_not_impor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;

@@ -2,6 +2,7 @@
 using MaterialSkin.Controls;
 using Not.Backend;
 using Proyecto_1.BackEnd;
+using Proyecto_1.FrontEnd.Notify.MainMenu;
 using Proyecto_1.FrontEnd.Notify.MENU_USUARIO;
 using Proyecto_1.FrontEnd.Registro;
 using System;
@@ -92,6 +93,7 @@ namespace Proyecto_1.FrontEnd.Login
             // 
             this.txtPassword.Location = new System.Drawing.Point(255, 287);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(247, 22);
             this.txtPassword.TabIndex = 2;
             // 
@@ -151,7 +153,6 @@ namespace Proyecto_1.FrontEnd.Login
             this.ResumeLayout(false);
             this.PerformLayout();
 
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -174,8 +175,16 @@ namespace Proyecto_1.FrontEnd.Login
             {
                 if(ls.AutenticarUsuario(txtUsuario.Text, txtPassword.Text))
                 {
-                    MENU_USER mu = new MENU_USER(new Usuario(txtUsuario.Text));
-                    mu.Show();
+                    if (ls.rol(txtUsuario.Text, txtPassword.Text) == "Admin")
+                    {
+                        Menu_Admin ma = new Menu_Admin(1);
+                        ma.Show();
+                    }
+                    else
+                    {
+                        MENU_USER mu = new MENU_USER(new Usuario(txtUsuario.Text));
+                        mu.Show();
+                    }
                     this.Hide();
                 }
                 else

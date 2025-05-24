@@ -31,7 +31,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.lbl_bienvenue = new MaterialSkin.Controls.MaterialLabel();
             this.grid_panel = new System.Windows.Forms.Panel();
@@ -74,7 +74,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.grid_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_not_impor);
             this.grid_panel.Location = new System.Drawing.Point(253, 71);
@@ -90,17 +90,17 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             this.dgv_not_impor.AllowUserToResizeRows = false;
             this.dgv_not_impor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_not_impor.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_not_impor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.dgv_not_impor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_not_impor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_not_impor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(157)))), ((int)(((byte)(219)))));
             this.dgv_not_impor.Location = new System.Drawing.Point(40, 38);
             this.dgv_not_impor.Name = "dgv_not_impor";
@@ -113,6 +113,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             // 
             // menu_panel
             // 
+            this.menu_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.menu_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menu_panel.Controls.Add(this.btn_notificacion);
             this.menu_panel.Controls.Add(this.btn_secciones);
@@ -123,13 +124,12 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             this.menu_panel.Size = new System.Drawing.Size(208, 417);
             this.menu_panel.TabIndex = 0;
             this.menu_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.menu_panel_Paint);
-            this.menu_panel.BackColor = ColorTranslator.FromHtml("#c4b4f3");
             // 
             // btn_notificacion
             // 
             this.btn_notificacion.AutoSize = true;
             this.btn_notificacion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_notificacion.BackColor = ColorTranslator.FromHtml("#5439ad");
+            this.btn_notificacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(57)))), ((int)(((byte)(173)))));
             this.btn_notificacion.Depth = 0;
             this.btn_notificacion.FlatAppearance.BorderSize = 0;
             this.btn_notificacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -203,6 +203,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             this.btn_back.TabIndex = 0;
             this.btn_back.Text = "Regresar";
             this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // MENU_USER
             // 

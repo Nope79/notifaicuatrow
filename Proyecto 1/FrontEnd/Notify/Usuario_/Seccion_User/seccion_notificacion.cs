@@ -35,7 +35,7 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
             lbl_bienvenue.Text = "Hola " + u.usuario;
             this.u = u;
             this.seccionJson = seccionJson;
-            this.ruta = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
+            this.ruta = @"C:\Users\nopes\OneDrive\Escritorio\notify v4w diseño listo\notifaicuatrow\notifaicuatrow\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
         }
 
         private void seccion_notificacion_Load(object sender, EventArgs e)

@@ -6,6 +6,7 @@ using Proyecto_1.FrontEnd.Notify.NOTIFICACIONES;
 using Proyecto_1.FrontEnd.Notify.USUARIOS;
 using Proyecto_1.FrontEnd.Notify.GRUPOS;
 using MaterialSkin;
+using Proyecto_1.FrontEnd.Login;
 
 namespace Proyecto_1.FrontEnd.Notify.MainMenu
 {
@@ -130,9 +131,8 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
                         DataGridViewRow selectedRow = dgv_main.Rows[e.RowIndex];
 
                         this.g.id = Convert.ToInt32(selectedRow.Cells[0].Value);
-                        this.g.numero_usuarios = Convert.ToInt32(selectedRow.Cells[1].Value);
-                        this.g.nombre = selectedRow.Cells[2].Value.ToString();
-                        this.g.descripcion = selectedRow.Cells[3].Value.ToString();
+                        this.g.nombre = selectedRow.Cells[1].Value.ToString();
+                        this.g.descripcion = selectedRow.Cells[2].Value.ToString();
 
                         btn_delete.Enabled = true;
                         btn_update.Enabled = true;
@@ -243,7 +243,9 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            // aqui se regresaría al login xd
+            Login_View lv = new Login_View();
+            lv.Show();
+            this.Hide();
         }
     }
 }

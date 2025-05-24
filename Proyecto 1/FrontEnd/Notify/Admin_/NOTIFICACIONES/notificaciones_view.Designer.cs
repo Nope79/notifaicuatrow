@@ -48,7 +48,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
+            this.panel1.BackColor = System.Drawing.Color.MediumPurple;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(-10, 62);
@@ -58,8 +58,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.BackColor = System.Drawing.Color.MediumPurple;
             this.panel2.Controls.Add(this.btn_guardar);
             this.panel2.Controls.Add(this.btn_back);
             this.panel2.Location = new System.Drawing.Point(62, 277);

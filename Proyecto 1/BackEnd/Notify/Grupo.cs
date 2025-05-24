@@ -75,7 +75,7 @@ namespace Not.Backend
                 tran = c.GetConnection().BeginTransaction();
 
                 MySqlConnection connection = c.GetConnection();
-                string query = "insert into grupo (numerousuarios, nombre, descripcion, ida) values (0, @nombre, @descripcion, @id_a)";
+                string query = "insert into grupo (nombre, descripcion) values (@nombre, @descripcion)";
 
                 MySqlCommand cmd = new MySqlCommand(query, c.GetConnection());
 
@@ -83,7 +83,6 @@ namespace Not.Backend
 
                 cmd.Parameters.AddWithValue("@nombre", g.nombre);
                 cmd.Parameters.AddWithValue("@descripcion", g.descripcion);
-                cmd.Parameters.AddWithValue("@id_a", g.id_admin);
 
                 cmd.ExecuteNonQuery();
                 tran.Commit();

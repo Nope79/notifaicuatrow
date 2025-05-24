@@ -33,14 +33,21 @@ namespace Not.Backend
 
         }
 
-        public Usuario(int id, string usuario, string password, string nombre, string correo, int id_admin)
+        public Usuario(int id, string usuario, string password, string nombre, string correo)
         {
             this.id = id;
             this.usuario = usuario;
             this.password = password;
             this.nombre = nombre;
             this.correo = correo;
-            this.id_admin = id_admin;
+        }
+
+        public Usuario(string usuario, string password, string nombre, string correo)
+        {
+            this.usuario = usuario;
+            this.password = password;
+            this.nombre = nombre;
+            this.correo = correo;
         }
 
         public Usuario(int id, string usuario)
@@ -125,6 +132,45 @@ namespace Not.Backend
             return dataTable;
         }
 
+        public bool crear_admin(Usuario u)
+        {
+            MySqlTransaction tran = null;
+            try
+            {
+                c.OpenConnection();
+
+                tran = c.GetConnection().BeginTransaction();
+
+                MySqlConnection connection = c.GetConnection();
+                string query = "insert into usuario(usuario, password, nombre, correo, rol) values (@user, sha2(@pass, 256), @nombre, @correo, 'Admin')";
+
+                MySqlCommand cmd = new MySqlCommand(query, c.GetConnection());
+
+                cmd.Parameters.AddWithValue("@user", u.usuario);
+                cmd.Parameters.AddWithValue("@pass", u.password);
+                cmd.Parameters.AddWithValue("@nombre", u.nombre);
+                cmd.Parameters.AddWithValue("@correo", u.correo);
+
+                cmd.ExecuteNonQuery();
+                tran.Commit();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                if (tran != null)
+                {
+                    tran.Rollback();
+                }
+                //MessageBox.Show(ex.Message);
+                return false;
+            }
+            finally
+            {
+                c.CloseConnection();
+            }
+        }
+
         public bool crear_usuario(Usuario u)
         {
             MySqlTransaction tran = null;
@@ -135,7 +181,7 @@ namespace Not.Backend
                 tran = c.GetConnection().BeginTransaction();
 
                 MySqlConnection connection = c.GetConnection();
-                string query = "insert into usuario(usuario, password, nombre, correo, ida) values (@user, sha2(@pass, 512), @nombre, @correo, @id_a)";
+                string query = "insert into usuario(usuario, password, nombre, correo, rol) values (@user, sha2(@pass, 512), @nombre, @correo, 'Usuario')";
 
                 MySqlCommand cmd = new MySqlCommand(query, c.GetConnection());
 
@@ -143,7 +189,6 @@ namespace Not.Backend
                 cmd.Parameters.AddWithValue("@pass", u.password);
                 cmd.Parameters.AddWithValue("@nombre", u.nombre);
                 cmd.Parameters.AddWithValue("@correo", u.correo);
-                cmd.Parameters.AddWithValue("@id_a", u.id_admin);
 
                 cmd.ExecuteNonQuery();
                 tran.Commit();
@@ -204,7 +249,7 @@ namespace Not.Backend
         {
             MySqlTransaction tran = null;
             bool res = true;
-            string query = "update usuario set usuario = @user, password = sha2(@pass, 512), nombre = @nombre, correo = @correo where idu = @id";
+            string query = "update usuario set usuario = @user, password = sha2(@pass, 256), nombre = @nombre, correo = @correo where idu = @id";
 
             try
             {

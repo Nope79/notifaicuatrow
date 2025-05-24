@@ -1,6 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Windows.Forms;
 
 namespace Proyecto_1.BackEnd
 {
@@ -8,13 +7,17 @@ namespace Proyecto_1.BackEnd
     {
         private MySqlConnection connection;
         private readonly string connectionString;
+
+        // Constructor que inicializa la conexión con la base de datos
         public Conexion()
         {
+            // Parámetros usados para entrar a la base de datos de MySQL
             connectionString = "server=localhost; user id = root; password =P3rR012.;database=ing; port=3306;";
+            // Creación de una conexión con los parámetros anteriores
             connection = new MySqlConnection(connectionString);
         }
 
-        // Metodo para abrir la conexion
+        // Abre la conexión si está cerrada
         public void OpenConnection()
         {
             try
@@ -26,11 +29,11 @@ namespace Proyecto_1.BackEnd
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message);
+                // Manejo silencioso del error
             }
         }
 
-        // Metodo para cerrar la conexion
+        // Cierra la conexión si está abierta
         public void CloseConnection()
         {
             try
@@ -38,16 +41,16 @@ namespace Proyecto_1.BackEnd
                 if (connection.State == System.Data.ConnectionState.Open)
                 {
                     connection.Close();
-                    // connection.Dispose(); si le dejo esto, hay problemas al borrar, jeje
+                    // connection.Dispose(); // Opción descartada porque da errores al eliminar
                 }
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message);
+                // Manejo silencioso del error
             }
         }
 
-        // Getter de la conexion
+        // Devuelve el objeto de conexión actual
         public MySqlConnection GetConnection()
         {
             return connection;

@@ -30,7 +30,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.menu_lbl = new MaterialSkin.Controls.MaterialLabel();
             this.btn_panel = new System.Windows.Forms.Panel();
@@ -77,7 +77,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             // 
             // btn_panel
             // 
-            this.btn_panel.BackColor = System.Drawing.Color.White;
+            this.btn_panel.BackColor = System.Drawing.Color.MediumPurple;
             this.btn_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btn_panel.Controls.Add(this.btn_entrar);
             this.btn_panel.Controls.Add(this.btn_delete);
@@ -159,7 +159,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             // 
             // grid_panel
             // 
-            this.grid_panel.BackColor = System.Drawing.Color.White;
+            this.grid_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.grid_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid_panel.Controls.Add(this.dgv_sec);
             this.grid_panel.Location = new System.Drawing.Point(197, 71);
@@ -175,17 +175,17 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
             this.dgv_sec.AllowUserToResizeRows = false;
             this.dgv_sec.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_sec.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
-            this.dgv_sec.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_sec.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(180)))), ((int)(((byte)(243)))));
             this.dgv_sec.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_sec.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_sec.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_sec.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_sec.Location = new System.Drawing.Point(40, 23);
             this.dgv_sec.Name = "dgv_sec";
             this.dgv_sec.ReadOnly = true;

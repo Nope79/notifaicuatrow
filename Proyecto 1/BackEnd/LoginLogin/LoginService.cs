@@ -1,5 +1,6 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
+using Not.Backend;
 
 namespace Proyecto_1.BackEnd
 {
@@ -12,13 +13,30 @@ namespace Proyecto_1.BackEnd
             using (var conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT COUNT(*) FROM Usuario WHERE usuario=@usuario AND password= @password";
+                string query = "SELECT COUNT(*) FROM Usuario WHERE usuario=@usuario AND password= sha2(@password, 256)";
                 using (var cmd = new MySqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@usuario", usuario);
                     cmd.Parameters.AddWithValue("@password", password);
                     int count = Convert.ToInt32(cmd.ExecuteScalar());
                     return count > 0;
+                }
+            }
+        }
+
+        public string rol(string usuario, string pass)
+        {
+            using (var conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT rol FROM Usuario WHERE usuario=@usuario AND password= sha2(@password, 256)";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@usuario", usuario);
+                    cmd.Parameters.AddWithValue("@password", pass);
+
+                    var result = cmd.ExecuteScalar();
+                    return result.ToString();
                 }
             }
         }

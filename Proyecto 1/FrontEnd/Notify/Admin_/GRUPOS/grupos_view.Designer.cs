@@ -44,7 +44,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(231)))), ((int)(((byte)(246)))));
+            this.panel1.BackColor = System.Drawing.Color.MediumPurple;
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-16, 62);
@@ -54,8 +54,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.BackColor = System.Drawing.Color.MediumPurple;
             this.panel4.Controls.Add(this.btn_guardar);
             this.panel4.Controls.Add(this.btn_back);
             this.panel4.Location = new System.Drawing.Point(44, 175);
@@ -67,6 +66,7 @@
             // 
             this.btn_guardar.AutoSize = true;
             this.btn_guardar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btn_guardar.Depth = 0;
             this.btn_guardar.Icon = null;
             this.btn_guardar.Location = new System.Drawing.Point(364, 13);
@@ -76,7 +76,7 @@
             this.btn_guardar.Size = new System.Drawing.Size(100, 36);
             this.btn_guardar.TabIndex = 5;
             this.btn_guardar.Text = "Guardar";
-            this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.UseVisualStyleBackColor = false;
             this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // btn_back
@@ -172,6 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(547, 323);
             this.Controls.Add(this.panel1);
             this.Name = "grupos_view";

@@ -33,7 +33,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User
                 Accent.Purple200,
                 TextShade.WHITE
             );
-            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\notify v4w diseño listo\notifaicuatrow\notifaicuatrow\Proyecto 1\JSON_\NotificacionesUsuario\" + u.usuario + ".json";
         }
 
         private void btn_notificacion_Click(object sender, EventArgs e)

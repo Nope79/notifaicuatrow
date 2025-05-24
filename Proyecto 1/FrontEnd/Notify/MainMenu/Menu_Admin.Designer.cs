@@ -30,7 +30,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.menu_lbl = new MaterialSkin.Controls.MaterialLabel();
             this.btn_panel = new System.Windows.Forms.Panel();
@@ -79,8 +79,7 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             // 
             // btn_panel
             // 
-            this.btn_panel.BackColor = System.Drawing.Color.White;
-            this.btn_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.btn_panel.BackColor = System.Drawing.Color.MediumPurple;
             this.btn_panel.Controls.Add(this.btn_delete);
             this.btn_panel.Controls.Add(this.btn_update);
             this.btn_panel.Controls.Add(this.btn_add);
@@ -159,14 +158,14 @@ namespace Proyecto_1.FrontEnd.Notify.MainMenu
             this.dgv_main.BackgroundColor = System.Drawing.Color.White;
             this.dgv_main.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_main.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_main.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_main.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_main.Location = new System.Drawing.Point(40, 38);
             this.dgv_main.Name = "dgv_main";
             this.dgv_main.ReadOnly = true;

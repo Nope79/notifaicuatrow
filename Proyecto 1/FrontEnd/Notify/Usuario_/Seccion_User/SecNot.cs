@@ -33,7 +33,7 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User
                 TextShade.WHITE
             );
             menu_lbl.Text = "Aquí están tus secciones " + u.usuario;
-            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\notify v4w diseño listo\notifaicuatrow\notifaicuatrow\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
         }
 
         private void SecNot_Load(object sender, EventArgs e)

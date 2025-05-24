@@ -16,6 +16,7 @@ using Proyecto_1.BackEnd;
 using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User;
 using Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User;
 using MaterialSkin;
+using Proyecto_1.FrontEnd.Login;
 
 namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
 {
@@ -76,6 +77,13 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
         private void menu_panel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            Login_View lv = new Login_View();
+            lv.Show();
+            this.Hide();
         }
     }
 }

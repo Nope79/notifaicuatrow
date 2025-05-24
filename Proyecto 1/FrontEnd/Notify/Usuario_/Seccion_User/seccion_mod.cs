@@ -41,7 +41,7 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
             this.opcion = opcion;
             Text = "Crea una nueva sección " + u.usuario;
 
-            rutaArchivoJson = @"C:\Users\nopes\Downloads\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\notify v4w diseño listo\notifaicuatrow\notifaicuatrow\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
         }
 
         // actualizar
@@ -65,10 +65,10 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
             txb_desc.Text = seccionJson.DESCRIPCIÓN;
             txb_filtro.Text = seccionJson.FILTRO;
 
-            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
+            rutaArchivoJson = @"C:\Users\nopes\OneDrive\Escritorio\notify v4w diseño listo\notifaicuatrow\notifaicuatrow\Proyecto 1\JSON_\SeccionesUsuario\" + u.usuario + ".json";
         }
 
-        private void seccion_mod_Load(object sender, EventArgs e)
+        private void seccion_mod_Load(object sender, EventArgs e) 
         {
 
         }
@@ -141,9 +141,6 @@ namespace Proyecto_1.FrontEnd.Notify.Usuario_.Seccion_User
             if (txb_nombre.Text.Length == 0) return "Debe llenar el campo 'Nombre'.";
             if (txb_desc.Text.Length == 0) return "Debe llenar el campo 'Descripción'.";
             if (txb_filtro.Text.Length == 0) return "Debe llenar el campo 'Filtro'.";
-
-            // Validaciones de formato
-            if (!Regex.Match(txb_filtro.Text, @"^[0-9,\s]+$").Success) return "El filtro solo debe contener numeros, espacios y comas.";
             
             return "Válido";
         }
